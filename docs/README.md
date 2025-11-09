@@ -10,18 +10,20 @@ Our project lifecycle begins with **Initiation**, where we validate business nee
 
 Throughout the project lifecycle, we maintain robust **Risk Management & Communication** practices including a risk register that tracks impact, likelihood, and mitigation plans, alongside structured stakeholder updates and clear escalation paths. Our **Release & Deployment** process follows standardized checklists, includes comprehensive testing (unit, integration, and end-to-end), and maintains rollback playbooks for incident response. Finally, every project concludes with **Retrospectives & Continuous Improvement**, where we conduct post-milestone reviews, capture learnings in action items, and apply insights to enhance future delivery.
 
-Key personas include Developers who implement features and maintain quality standards, Product Managers who define customer value and prioritize work, Project Managers who coordinate delivery and manage risk, QA/Testing specialists who validate acceptance criteria, and Stakeholders who provide inputs and approvals. Our communication cadence includes weekly PM-PdM syncs, twice-weekly team standups, monthly stakeholder updates, and regular demos, all supported by key artifacts such as project charters, roadmaps, risk registers, and retrospective notes.
+Key personas include Developers who implement features and maintain quality standards, Product Managers who define customer value and prioritize work, Project Managers who coordinate delivery and manage risk, QA Leads/Test Engineers who validate acceptance criteria and manage test automation, UX/UI Designers who create user-centered designs, Tech Leads/Solution Architects who provide technical leadership, Business Analysts who gather requirements and validate business outcomes, Support/Customer Success Managers who ensure customer satisfaction, and Stakeholders who provide inputs and approvals. Our communication cadence includes weekly PM-PdM syncs, twice-weekly team standups, monthly stakeholder updates, and regular demos, all supported by key artifacts such as project charters, roadmaps, risk registers, design specifications, and retrospective notes.
 
 ## All Process Documents
 
 - [OctoAcme Project Management Overview](./octoacme-project-management-overview.md) - High-level introduction to principles, roles, and lifecycle
+- [Roles & Personas](./octoacme-roles-and-personas.md) - Detailed responsibilities and communication patterns for each role
+- [Cross-Functional Handoffs & Interactions](./octoacme-cross-functional-handoffs.md) - Handoff processes between roles and collaboration patterns
+- [New Team Member Onboarding Checklist](./octoacme-onboarding-checklist.md) - Comprehensive onboarding guide for all roles
 - [Project Initiation Guide](./octoacme-project-initiation.md) - Validate business need, align stakeholders, create project one-pager
 - [Project Planning Guide](./octoacme-project-planning.md) - Break down work, identify dependencies, establish milestones
 - [Execution & Tracking Guide](./octoacme-execution-and-tracking.md) - Day-to-day execution, project boards, quality practices, and metrics
 - [Risk Management & Communication](./octoacme-risks-and-communication.md) - Risk registers, stakeholder updates, escalation paths
 - [Release & Deployment Guide](./octoacme-release-and-deployment.md) - Standardized releases, testing checklists, rollback procedures
 - [Retrospective & Continuous Improvement](./octoacme-retrospective-and-continuous-improvement.md) - Post-milestone reviews and learning capture
-- [Roles & Personas](./octoacme-roles-and-personas.md) - Detailed responsibilities and communication patterns for each role
 
 ## Quick Reference
 
@@ -45,14 +47,18 @@ Key personas include Developers who implement features and maintain quality stan
 - Sprint/Iteration Backlog
 - Acceptance Criteria & Definition of Done
 - Risk Register
+- Design specifications and mockups
+- Test plans and QA reports
+- Cross-functional handoff documentation
 - Retrospective Notes and Action Items
 
 ## How to Use These Docs
 
-- **New team members:** Start with the [Project Management Overview](./octoacme-project-management-overview.md) to understand our approach
+- **New team members:** Start with the [Onboarding Checklist](./octoacme-onboarding-checklist.md) for your role, then review the [Project Management Overview](./octoacme-project-management-overview.md)
+- **Understanding roles:** Check [Roles & Personas](./octoacme-roles-and-personas.md) for detailed responsibilities
+- **Cross-functional collaboration:** Reference [Cross-Functional Handoffs](./octoacme-cross-functional-handoffs.md) for handoff processes
 - **Starting a project:** Follow the [Project Initiation Guide](./octoacme-project-initiation.md) to set up properly
 - **During execution:** Reference [Execution & Tracking](./octoacme-execution-and-tracking.md) for daily workflows
 - **Managing risks:** Use the [Risk Management & Communication](./octoacme-risks-and-communication.md) guide
-- **Understanding roles:** Check [Roles & Personas](./octoacme-roles-and-personas.md) for responsibilities
 
 For Copilot Spaces integration, add relevant process documents to `.copilot/` in your project repository to provide context-aware guidance.

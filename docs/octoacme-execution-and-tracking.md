@@ -9,12 +9,18 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 - Demo/Review at the end of each sprint or milestone
 
 ## Workflows
-- Use the project board (e.g., GitHub Projects) with columns: Backlog, Ready, In Progress, In Review, QA, Done
+- Use the project board (e.g., GitHub Projects) with columns: Backlog, Ready, Design Review, In Progress, In Review, QA, Done
+- Design workflow:
+  - Design tasks follow product-to-design handoff process
+  - Design reviews include product, tech lead, and relevant developers
+  - Designs approved before development starts (see `docs/octoacme-cross-functional-handoffs.md`)
 - Pull Request workflow:
   - Small PRs (<= 400 lines when possible)
   - Include issue link and acceptance criteria in PR description
+  - Reference designs and ensure design fidelity
   - Run automated tests and linting in CI before requesting review
   - Require at least one approval before merging (or team-defined policy)
+  - Tag QA when ready for testing
 
 ## Quality & Testing
 - Unit tests for new logic
@@ -22,6 +28,11 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 - End-to-end smoke tests for critical flows before release
 - Security scanning in CI
 - Manual QA for feature acceptance when needed
+- Usability testing for significant UI changes
+- Accessibility validation against WCAG standards
+- Design fidelity checks before marking features done
+
+See QA Lead/Test Engineer role in `docs/octoacme-roles-and-personas.md` for testing responsibilities.
 
 ## Reporting & Metrics
 - Track velocity and burndown
@@ -38,3 +49,6 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 - [ ] CI configured for tests and lint
 - [ ] Regular demos scheduled
 - [ ] Risk register updated weekly
+- [ ] Design handoffs scheduled and tracked
+- [ ] QA involvement confirmed for each feature
+- [ ] Cross-functional collaboration points identified (see `docs/octoacme-cross-functional-handoffs.md`)
