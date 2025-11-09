@@ -14,11 +14,30 @@ Applies to all cross-functional projects that deliver product features, services
 - Psychological safety: encourage feedback and learning.
 
 ## Core Roles
-- Project Manager (PM): coordinates delivery, schedules, risk, communications.
-- Product Manager (PdM): defines outcomes, prioritizes backlog, and measures success.
-- Developers: implement features, collaborate on design and testability.
-- QA/Testing: validate quality and acceptance criteria.
-- Stakeholders: provide inputs and approvals.
+The following roles work together to deliver successful projects:
+
+**Leadership & Coordination:**
+- **Project Manager (PM):** Coordinates delivery, schedules, risk, communications.
+- **Product Manager (PdM):** Defines outcomes, prioritizes backlog, and measures success.
+- **Tech Lead / Solution Architect:** Provides technical leadership and architectural guidance.
+
+**Design & User Experience:**
+- **UX/UI Designer:** Creates user-centered designs and validates usability.
+
+**Development & Quality:**
+- **Developers:** Implement features, collaborate on design and testability.
+- **QA Lead / Test Engineer:** Validate quality, acceptance criteria, and test automation.
+
+**Requirements & Analysis:**
+- **Business Analyst:** Gathers requirements, documents processes, and validates business outcomes.
+
+**Customer-Facing:**
+- **Support / Customer Success Manager:** Ensures customer satisfaction, handles escalations, and provides product feedback.
+
+**Other:**
+- **Stakeholders:** Provide inputs, approvals, and feedback.
+
+See `docs/octoacme-roles-and-personas.md` for detailed role descriptions.
 
 ## Key Artifacts
 - Project Charter / One-pager
@@ -26,7 +45,12 @@ Applies to all cross-functional projects that deliver product features, services
 - Sprint/Iteration Backlog
 - Acceptance Criteria & Definition of Done
 - Risk Register
+- Design specifications and mockups
+- Test plans and QA reports
+- Cross-functional handoff documentation
 - Retrospective notes and action items
+
+See `docs/octoacme-cross-functional-handoffs.md` for handoff processes.
 
 ## Lifecycle (high-level)
 1. Initiation: problem statement, stakeholders, high-level timeline.
@@ -44,3 +68,5 @@ Applies to all cross-functional projects that deliver product features, services
 ## How to use these docs
 - Keep the Project Charter updated in the project repo.
 - Add process-specific docs into `.copilot/` if you want Copilot Spaces to use them as context.
+- Reference `docs/octoacme-onboarding-checklist.md` for new team member onboarding.
+- Use `docs/octoacme-cross-functional-handoffs.md` to understand collaboration points between roles.
